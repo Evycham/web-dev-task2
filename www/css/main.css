@@ -12,7 +12,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    color: #33312E;
+    color: #0F0E47;
     background: #E3DDDB;
     min-height: 100vh;
     display: flex;
@@ -40,13 +40,13 @@ img{
     Header
 */
 .logo-container{
+    color: #E3DDDB;
     display: flex;
     align-items: center;
-    background: #8E6D56;
+    background: #272757;
     width: 100%;
     margin: 0;
     padding: 15px;
-    border-bottom-color: #8e694f;
 }
 
 /* can't growth, a size of the container - automatik*/
@@ -55,18 +55,17 @@ img{
 }
 
 .logo-btn a{
-    color: #33312E;
-    background: #6a5341;
+    color: #fff;
+    background: #000;
     font-weight: 800;
     padding: 10px 25px;
     border-radius: 15px;
-    border: 2px solid #8E6D56;
     transition: all 500ms ease;
 }
 
 .logo-btn a:hover{
-    background: #493b2f;
-    color: #87827e;
+    background: #505081;
+    color: #0F0E47;
 }
 
 /*
@@ -109,23 +108,25 @@ header nav ul{
 }
 
 header nav ul li a{
-    color: #33312E;
+    color: #E3DDDB;
+    font-weight: 600;
     padding: 10px 25px;
     border-radius: 15px;
     display: inline-block;
 }
 
 header nav ul li:not(.active) a{
-    background: #9C928C;
+    background: #505081;
     transition: all 500ms ease;
 }
 
 header nav ul li.active a{
-    border: 2px solid #9C928C;
+    color: #0F0E47;
+    border: 2px solid #272757;
 }
 
 header nav ul li:not(.active) a:hover{
-    background: #b9aca5;
+    background: #272757;
     transform: scale(1.1);
 }
 
@@ -135,7 +136,7 @@ header nav ul li:not(.active) a:hover{
 */
 main{
     flex: 1;
-    background: #D1AB83;
+    background: #8686AC;
     display: flex;
 }
 
@@ -176,7 +177,6 @@ main{
 /*
     Workers
 */
-
 #workers{
     flex: 1;
     display: grid;
@@ -212,7 +212,6 @@ main{
 /*
     About
 */
-
 #info{
     flex: 1;
     display: grid;
@@ -232,6 +231,9 @@ main{
     padding: 30px;
 }
 
+/*
+* Footer
+*/
 footer{
     background: #E3DDDB;
     padding: 50px;
